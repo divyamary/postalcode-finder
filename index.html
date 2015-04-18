@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Postal</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/postal.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+</head>
+<body>
+	<div class="navigation">
+    <nav class="container primary">
+        <div class="sixteen columns">
+            <ul>
+                <li id="heading"><h4>Postal Code Finder</h4></li>
+                <li><input type="text" placeholder="Eg:1600 Amphitheatre Parkway, Mountain View, CA" id="address"></li>
+                <li id="find"><input type="button" value="Find" id="submit"></li>
+            </ul>
+        </div>
+		<p id="section-description">Lookup the postal code of any address</p>
+    </nav>
+	</div>	
+			
+		<div class="container">
+			<div class="six columns offset-by-three">
+			<div class="result success">
+			<p>Success</p>
+			</div>
+			<div class="result suggest">
+			<p></p>
+			</div>
+			<div class="result fail">
+			<p>Fail</p>
+			</div>
+			</div>
+		</div>
+
+		<div class="container map">
+		<div class="twelve columns">
+			<div id="map-canvas"></div>
+		</div>
+		</div>
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ2jhHMEmGMEvkF5miOX1XVcR9t-n8ZTo"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+

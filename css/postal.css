@@ -1,0 +1,134 @@
+body{
+margin:0;
+background: url('../img/map.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+h3{
+font-weight:600;
+}
+.container{
+font-family: 'Oxygen', sans-serif;
+}
+.main {
+color:#fff;
+margin-top: 5rem;
+text-align: center;
+}
+#section-description{
+font-size:1.4rem;
+margin: 0;
+}
+#address{
+width:100%;
+border-radius:0px;
+box-sizing: border-box;
+border:1px solid #232323;
+color:#232323;
+margin-bottom: 0;
+}
+
+#submit{
+border-radius:0px;
+background:white;
+color:#232323;
+font-size:1.3rem;
+border:1px solid #232323;
+}
+#submit:hover{
+border-radius:0px;
+background:rgba(0,0,0,0.7);
+color:#fff;
+font-size:1.3rem;
+border:1px solid #fff;
+}
+.suggestBtn{
+border-radius:0px;
+background:#fff;
+color:#000;
+font-size:1.3rem;
+border:1px solid #fff;
+}
+.suggestBtn:hover{
+border-radius:0px;
+background:rgba(0,0,0,0.7);
+color:#fff;
+font-size:1.3rem;
+border:1px solid #fff;
+}
+.suggestRes{
+font-size:1.4rem;
+text-decoration: none;
+}
+.suggestRes:hover{
+color:#fff;
+font-size:1.5rem;
+}
+.result{
+display:none;
+height:auto;
+}
+.success p{
+padding:4px;
+font-size:2rem;
+background: rgba(255,255,255, 0.3);
+text-align:center;
+color:#242424;
+}
+.fail p{
+padding:4px;
+font-size:2rem;
+background: rgba(255,255,255, 0.3);
+text-align:center;
+color:#eb4d30;
+}
+.suggest p{
+padding:4px;
+font-size:2rem;
+background: rgba(255,255,255, 0.3);
+text-align:center;
+color:#242424;
+}
+.postalcode{
+color:#1EAEDB;
+}
+#map-canvas {
+margin: 0;
+padding: 0;
+max-width: 100%; 
+height: 400px;
+width: 100%;
+}
+.map{
+margin-bottom:5rem;
+}
+
+.navigation{
+background:rgba(255,255,255, 0.3);
+margin-bottom:1rem;
+}
+nav.primary{
+display: table;
+margin: 0 auto;
+ }
+ 
+nav.primary ul{
+margin-top:1rem;
+}
+
+nav.primary ul li {
+display: inline;
+float: left;
+position: relative;
+width:50%;
+}
+  
+#find{
+width:10%;
+}
+#heading{
+width:30%;
+}
+
